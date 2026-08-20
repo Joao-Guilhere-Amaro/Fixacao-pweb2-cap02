@@ -4,6 +4,7 @@
   "description": "Criar um servidor HTTP utilizando **exclusivamente o módulo `node:http`**, sem Express ou qualquer outro framework.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Joao-Guilhere-Amaro/Fixacao-pweb2-cap02/issues"
   },
